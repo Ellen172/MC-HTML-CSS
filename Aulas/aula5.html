@@ -1,0 +1,72 @@
+<!-- Datalist -->
+<!doctype html> <!-- Indicar que meu arquuivo é um HTML -->
+<html lang="pt-br"><!-- Indicar o idioma do meu site -->
+	<head> <!-- Fazer o cabeçalho do nosso site, os dados contidos dentro do Head não vão aparecer no site -->
+		<meta charset="utf-8"> <!-- Indicar qual o mapa de cacteres utilizado pelo nosso navegador -->
+		<title>Aluno - CTR - Turma</title> <!-- Serve para indicar qual é o titulo do meu site / navegador -->
+		<style>
+			.primeiro{<!--Abre a minha classe onde vou colocar todos os atributos que irei chamar na minha pagina -->
+						font-family: Palatino, "Century Schoolbook L", "Times New Roman", serif;
+						color:#0C0;
+						text-align:center;
+						font-size:1.5em;
+						font-style:italic;
+					}
+			#conteudo1{
+				width:40%;
+				height:25%;
+			}
+			h4 {
+				font-family:"Century Schoolbook L", "Times New Roman", serif;
+				text-align:center;
+				font-size:1.3em;
+				background:#CCC;
+			}
+			p{
+				font-family:Georgia;
+				text-align:justify;
+				font-size:1.2em
+			}
+		</style>
+	</head>
+	<body><!-- Serve para para iniciar o conteúdo do nosso site -->
+		<p class="primeiro">Alterações realizadas pela tag Style chamando uma classe</p>
+		<div id="conteudo" contenteditable="false">
+			<h3>Conteúdo principal da Div</h3>
+				<p>A tag contenteditable serve para permite ou não que um determinado conteúdo ou parte do seu site possa ser editado pelo usuario </p>
+				<p contenteditable="true">Edite aqui </p>
+		</div>
+		
+		<!-- Aqui termina a minha DIV -->	
+		
+		<p dir="rtl"> A tag dir="rtl" posiciona seu texto da direita para a esquerda</p>
+		<p dir="ltr"> A tag dir="ltr" posiciona seu texto da esquerda para a direita</p>
+		
+<!--Draggable permite que o programador definia se um elemento será arrastável ou não ele pode ter os seguintes valores:
+
+- True: Verdadeiro, indica que o elemtno pod ser arrastado;
+- False: Falso, indica que o elemento não pode ser arrastado. -->
+		<div id="conteudo1" draggable="true">
+			<h4>Novidades conteudo arrastavel</h4>
+			<p>Hoje, 40 anos depois, o Gol não apenas segue sendo produzido e vendido, como quebrou os recordes do próprio Fusca. Ele é o carro mais vendido, produzido e exportado da indústria brasileira.</p>
+		</div>
+		<div id="conteudo1" draggable="false">
+			<h4>Novidades conteudo NÃO arrastavel</h4>
+			<p>Hoje, 40 anos depois, o Gol não apenas segue sendo produzido e vendido, como quebrou os recordes do próprio Fusca. Ele é o carro mais vendido, produzido e exportado da indústria brasileira.</p>
+		</div>
+		
+		<!-- Aqui começa meu Data List -->	
+		
+		<label for="Turmasmicrocamp"> Qual é a sua turma</label> <!-- A tag Label serve para entrar com o título do conteúdo ou nome do campo que vamos fazer a nossa inserção -->
+			<input list="Turmasmicrocamp"> <!-- Listando todo o conteúdo que inicie com as palavras chaves digitados pelo usuario-->
+				<datalist id="Turmasmicrocamp"> <!-- Apresenta valores do nosso combobox-->
+					<option value="SQMC2.19143001">
+					<option value="TQMC153001">
+					<option value="SBMC120001">
+					<option value="SQMC183002">
+					<option value="SBMC220080001">
+					<option value="SBHW100002"> <!-- São os valores do nosso Combobox-->
+				</datalist>
+	</body>
+	
+</html>

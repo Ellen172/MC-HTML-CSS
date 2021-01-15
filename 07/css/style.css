@@ -1,0 +1,25 @@
+*{
+	margin: 2%;
+	line-height: normal;
+	font-family: arial;
+}
+
+h1{
+	font-size: 1.6em;
+	color: 	#2F4F4F;
+	font-family: Tahoma;
+}
+
+p:first-child {
+	text-align: justify;
+	font-size: 1.1em;
+	font-family: tahoma, geneva;
+	color: 	#9932CC;
+}
+
+p:last-child {
+	text-align: justify;
+	font-size: 0.9em;
+	font-family: tahoma, geneva;
+	color: red;
+}

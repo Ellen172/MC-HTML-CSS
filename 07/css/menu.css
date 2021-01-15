@@ -1,0 +1,36 @@
+#all {
+	width: 500px;
+	height: 25px;
+	line-height: 05px; /* centraliza na vertical */
+	margin: 0 auto;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 5;
+	overflow: hidden;
+	font-family: consolas, "Lucida Console", "Lucida Sans Typerwriter";
+	font-size: 1em;
+	align-items: center;
+}
+
+li {
+	float: left;
+}
+
+ a:link, a:visited{
+	 display:block;
+	 font-weight:bold;
+	 color:#fff;
+	 background-color:#F30;
+	 text-align:center;
+	 padding: 10px 20px;
+	 text-decoration:none;
+	 text-transform: uppercase;
+}
+
+a:hover, a:active{
+	background-color: #fc0;
+	color:#666;
+}

@@ -1,0 +1,127 @@
+* {
+    background-color: azure;
+}
+
+#banner {
+    width: 98%;
+    background: -webkit-gradient(linear, left top, right bottom, from(#6959CD), to(#FFFAFA)) no-repeat;
+    border: 1px solid black;
+    padding: 0;
+    margin: 10px;
+    position: relative;
+    top: auto;
+    height: 100px;
+}
+
+#menu {
+    background: -webkit-gradient(linear, left top, right bottom, from(#3CB371), to(#FFFAFA)) no-repeat;
+    border: 1px solid black;
+    padding: 0;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 200px;
+    height: 525px;
+}
+
+#conteudo {
+    background: -webkit-gradient(linear, left top, right bottom, from(#DAA520), to(#FFFAFA)) no-repeat;
+    border: 1px solid black;
+    position: absolute;
+    top: 120px;
+    left: 235px;
+    width: 890px;
+    height: 525px;
+}
+
+#relacionados {
+    background: -webkit-gradient(linear, left top, right bottom, from(#3CB371), to(#FFFAFA)) no-repeat;
+    border: 1px solid black;
+    padding: 0;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    width: 200px;
+    height: 350px;
+}
+
+#rodape {
+    background: -webkit-gradient(linear, left top, right bottom, from(#FF69B4), to(#FFFAFA)) no-repeat;
+    border: 1px solid black;
+    padding: 0;
+    position: absolute;
+    top: 480px;
+    right: 20px;
+    width: 200px;
+    height: 165px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 3px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 10px 5px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: transparent;
+}
+
+li > a:link, a:visited {
+    margin: 0;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #90EE90;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+li > a:hover, a:active {
+    background-color: #008000;
+    color: white;
+}
+
+
+
+h1{
+    background-color: transparent;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+p{
+    background-color: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1em;
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+}
+
+.logo {
+    width: 30px;
+    background-color: transparent;
+}
+
+em {
+    background-color: transparent;
+    text-align: center;
+}

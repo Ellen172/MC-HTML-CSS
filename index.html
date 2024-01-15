@@ -1,28 +1,54 @@
-<!Doctype html> <!-- Versão do código utilizado -->
-<html>
-	<head>  <!-- Especificações do código -->
-		<title>Minha página</title> <!-- Indicar o titulo do site/navegador, que aparece na guia -->
-		<meta charset="utf-8"> <!-- Indica o mapa de caracteres -->
-	</head>
-	
-    <body> <!-- onde se encontram os elementos que realmente apareçeram na página -->
-        
-        <nav> <!--Menu para transição entre as páginas de estudo-->
-            <ul>
-                <li><a href="index.html">Básico</a></li>
-                <li><a href="visual.html">Visual e links</a></li>
-                <li><a href="tab-lista.html">Tabelas e listas</a></li>
-            </ul>
-        </nav>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprendendo HTML & CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-        <h1>Titulo 1</h1> <!--representação do titulo 1-->
-        <h2>Titulo 2</h2> <!--representação do titulo 2-->
-        <h3>Titulo 2</h3> <!--representação do titulo 3-->
-        <h4>Titulo 2</h4> <!--representação do titulo 4-->
-        <h4>Titulo 2</h4> <!--representação do titulo 4-->
-        <h4>Titulo 2</h2> <!--representação do titulo 4-->
-        <p>Este é um exemplo de paragrafo p</p>
-        <span>Este é um exemplo de páragrafo com a tag span, usado para dar enfasê</span>
-        <hr/> <!--adiciona uma linha-->
-	</body>
+    <div id="banner">
+        <h1>Nome da Empresa</h1>
+        <h2>Especialidade</h2>
+    </div>
+
+    <div id="menu">
+        <ul>
+            <li><a href=#>Página</a></li>
+            <li><a href=#>Página</a></li>
+            <li><a href=#>Página</a></li>
+            <li><a href=#>Página</a></li>
+            <li><a href=#>Página</a></li>
+            <li><a href=#>Página</a></li>
+        </ul>
+    </div>
+
+    <div id="conteudo">
+
+        <h1>Estutrura HTML</h1>
+        <div><code>
+                <p class="espacamento1"><b>&lt;!Doctype html&gt;</b> &rarr; Define a versão do código utilizado</p>
+                <p class="espacamento1"><b>&lt;html&gt;</b> &rarr; Tag de abertura para o documento html</p>
+                <p class="espacamento2"><b>&lt;head&gt;</b> &rarr; Abertura do cabeçalho, onde se encontram as especificação do código</p>
+                <p class="espacamento3"><b>&lt;title&gt;</b> <i>Nome da página</i> <b>&lt;/title&gt;</b> &rarr; Indica o titulo do site/navegador (que aparece na guia)</p>
+                <p class="espacamento3"><b>&lt;meta charset="utf-8"&gt;</b> &rarr; Indica o campo de caracteres</p>
+                <p class="espacamento2"><b>&lt;/head&gt;</b> &rarr; Tag de fechamento do cabeçalho</p>
+                <p class="espacamento2"><b>&lt;body&gt;</b> &rarr; Abertura do corpo do site, onde serão dispostos todos os principais elementos</p>
+                <p class="espacamento2"><b>&lt;/body&gt;</b> &rarr; Tag de fechamento do corpo do site</p>
+                <p class="espacamento2"><b>&lt;footer&gt;</b> &rarr; Abertura do rodapé do site, onde se encontra algumas informações utéis</p>
+                <p class="espacamento2"><b>&lt;/footer&gt;</b> &rarr; Tag de fechamento do rodapé do site</p>
+                <p class="espacamento1"><b>&lt;/html&gt;</b> &rarr; Tag de fechcamento para o documento html</p>
+        </code></div>
+
+    </div>
+        
+    <div id="relacionados">
+        <p>Aqui estarão os temas relacionados</p>
+    </div>
+
+    <div id="rodape">
+        <p><img src="./img/whatsapp.png" class="logo"><span>(34)99999-9999</span></p>
+        <p>nome@mail.com</p>
+    </div> 
+</body>
 </html>
